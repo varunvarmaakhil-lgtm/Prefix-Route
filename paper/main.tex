@@ -264,6 +264,7 @@ The multi-replica cluster is simulated and calibrated on single-GPU measurements
 \label{sec:concl}
 
 Tool-call latency, through the idle-session working set it creates, decides whether KV capacity changes how agentic requests should be routed. With fast tools, session affinity is near-optimal (62 vs.\ 58~ms p95 for the clairvoyant reference). From about 5~s with capacity at or below the working set (normalised or fixed), 0.5--1~s with scarce headroom, or 10~s with ample memory, an eviction guard with TTFT-based placement leads by 5--23\% (6--81~ms) at no throughput cost, not by making misses cheaper but by placing each session's recompute where it delays others least.
+Code and data: \url{https://github.com/varunvarmaakhil-lgtm/Prefix-Route}, DOI \url{10.5281/zenodo.24190142}.
 
 \section*{Acknowledgment}
 An AI assistant (Claude, Anthropic) was used for drafting; the authors reviewed all content and take full responsibility for it. The agentic workload descriptor contains only numeric per-turn token counts and timings, with no prompts or clinical content.

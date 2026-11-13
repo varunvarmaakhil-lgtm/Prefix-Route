@@ -1,5 +1,7 @@
 # PrefixRoute: eviction-aware routing for agentic LLM serving
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24190142.svg)](https://doi.org/10.5281/zenodo.24190142)
+
 Code and data for the PCDS 2026 paper
 
 > **Growing Prefixes Meet Finite Caches: When Does Eviction-Aware Routing Pay Off for Agentic LLM Serving?**
@@ -101,7 +103,9 @@ tests/                 self-test and a mock vLLM server (tests the client withou
 ## Citation
 
 If you use this code, please cite the paper (see [CITATION.cff](CITATION.cff); GitHub's "Cite this repository"
-button gives BibTeX).
+button gives BibTeX). The archived code and data have the DOI
+[10.5281/zenodo.24190142](https://doi.org/10.5281/zenodo.24190142) (all versions; v1.0 is
+[10.5281/zenodo.24190143](https://doi.org/10.5281/zenodo.24190143)).
 
 ## License
 

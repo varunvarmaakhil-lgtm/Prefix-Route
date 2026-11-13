@@ -3,6 +3,7 @@ message: "If you use this software, please cite the paper below."
 title: "PrefixRoute: code and data for 'Growing Prefixes Meet Finite Caches' (PCDS 2026)"
 type: software
 version: "1.0"
+doi: 10.5281/zenodo.24190142
 date-released: "2026-11-13"
 license: MIT
 repository-code: "https://github.com/varunvarmaakhil-lgtm/Prefix-Route"
