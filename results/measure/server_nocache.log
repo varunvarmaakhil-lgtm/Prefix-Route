@@ -1,0 +1,2 @@
+# Trimmed vLLM server log: only the KV-capacity line read by analysis/ is kept (full log omitted for privacy).
+INFO 09-25 13:03:16 [kv_cache_utils.py:634] GPU KV cache size: 194,368 tokens

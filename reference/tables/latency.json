@@ -1,0 +1,735 @@
+{
+ "crossover_s": {
+  "agentic|0.25": 5.0,
+  "agentic|0.5": 5.0,
+  "agentic|1.0": 5.0,
+  "agentic|2.0": null,
+  "synth|0.25": 5.0,
+  "synth|0.5": 5.0,
+  "synth|1.0": 5.0,
+  "synth|2.0": null
+ },
+ "margin_pct": 5.0,
+ "ranks": [
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.05,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.2,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 0.05,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 0.2,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 0.5,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 1.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.5,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 0.05,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 0.2,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 0.5,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 1.0,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 0.05,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 0.2,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 0.5,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 2.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 2.0,
+   "tool_s": 5.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded",
+    "round_robin",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.05,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "session_affinity",
+    "evict_aware",
+    "prefix_hash",
+    "least_loaded",
+    "round_robin",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.2,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "evict_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "round_robin",
+    "least_loaded",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 0.05,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "session_affinity",
+    "evict_aware",
+    "prefix_hash",
+    "least_loaded",
+    "round_robin",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 0.2,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "evict_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.5,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "round_robin",
+    "least_loaded",
+    "random",
+    "prefix_hash"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 0.05,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "session_affinity",
+    "evict_aware",
+    "prefix_hash",
+    "least_loaded",
+    "round_robin",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 0.2,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "evict_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 0.5,
+   "rank": [
+    "evict_aware",
+    "cache_aware",
+    "oracle",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 1.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 2.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 1.0,
+   "tool_s": 5.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 0.05,
+   "rank": [
+    "cache_aware",
+    "oracle",
+    "session_affinity",
+    "evict_aware",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 0.2,
+   "rank": [
+    "cache_aware",
+    "session_affinity",
+    "evict_aware",
+    "oracle",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 2.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 2.0,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "prefix_hash",
+    "round_robin",
+    "least_loaded",
+    "random"
+   ]
+  }
+ ]
+}

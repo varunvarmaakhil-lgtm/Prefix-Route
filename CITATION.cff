@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "PrefixRoute: code and data for 'Growing Prefixes Meet Finite Caches' (PCDS 2026)"
+type: software
+version: "1.0"
+date-released: "2026-11-13"
+license: MIT
+repository-code: "https://github.com/varunvarmaakhil-lgtm/Prefix-Route"
+keywords:
+  - LLM serving
+  - KV cache
+  - prefix caching
+  - request routing
+  - agentic workloads
+authors:
+  - family-names: Kalidindi
+    given-names: Akhil Varun Varma
+    affiliation: "Mahindra University"
+  - family-names: Manda
+    given-names: Siddharth
+    affiliation: "Mahindra University"
+  - family-names: Kamishetty
+    given-names: Rishi
+    affiliation: "Mahindra University"
+  - family-names: Bilakanti
+    given-names: Mukesh Reddy
+    affiliation: "Mahindra University"
+  - family-names: Rangisetti
+    given-names: Lakshmi Pavan
+    affiliation: "Mahindra University"
+  - family-names: Talagondapati
+    given-names: Veeraiah
+    affiliation: "Mahindra University"
+preferred-citation:
+  type: conference-paper
+  title: "Growing Prefixes Meet Finite Caches: When Does Eviction-Aware Routing Pay Off for Agentic LLM Serving?"
+  conference:
+    name: "PCDS 2026"
+  year: 2026
+  authors:
+    - family-names: Kalidindi
+      given-names: Akhil Varun Varma
+    - family-names: Manda
+      given-names: Siddharth
+    - family-names: Kamishetty
+      given-names: Rishi
+    - family-names: Bilakanti
+      given-names: Mukesh Reddy
+    - family-names: Rangisetti
+      given-names: Lakshmi Pavan
+    - family-names: Talagondapati
+      given-names: Veeraiah

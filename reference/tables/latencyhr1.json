@@ -1,0 +1,153 @@
+{
+ "crossover_s": {
+  "agentic|0.25": 0.5,
+  "synth|0.25": 1.0
+ },
+ "margin_pct": 5.0,
+ "ranks": [
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.05,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.2,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 1.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 2.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "agentic",
+   "cap_frac": 0.25,
+   "tool_s": 5.0,
+   "rank": [
+    "evict_aware",
+    "oracle",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.05,
+   "rank": [
+    "oracle",
+    "cache_aware",
+    "evict_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.2,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 0.5,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 1.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 2.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  },
+  {
+   "workload": "synth",
+   "cap_frac": 0.25,
+   "tool_s": 5.0,
+   "rank": [
+    "oracle",
+    "evict_aware",
+    "cache_aware",
+    "session_affinity",
+    "least_loaded"
+   ]
+  }
+ ]
+}

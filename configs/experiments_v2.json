@@ -1,0 +1,372 @@
+{
+ "_doc": "v2 grid = all v1 groups (re-run into results/raw_v2 with the miss-cost decomposition) + the tool-latency x capacity sweep (lat) + its halved-headroom robustness check (lat_hr1).",
+ "defaults": {
+  "N": 4,
+  "cap_frac": 1.0,
+  "util": 0.7,
+  "B": 32,
+  "headroom": 2.0,
+  "slo_s": 1.0,
+  "n_sessions": {
+   "chat": 12000,
+   "agentic": 5000,
+   "synth": 5000
+  },
+  "think_scale": 1.0,
+  "growth_scale": 1.0,
+  "turns_scale": 1.0
+ },
+ "groups": {
+  "main": {
+   "grid": {
+    "workload": [
+     "chat",
+     "agentic",
+     "synth"
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "lat": {
+   "grid": {
+    "workload": [
+     "agentic",
+     "synth"
+    ],
+    "tool_median_s": [
+     0.05,
+     0.2,
+     0.5,
+     1.0,
+     2.0,
+     5.0
+    ],
+    "cap_frac": [
+     0.25,
+     0.5,
+     1.0,
+     2.0
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "cap": {
+   "grid": {
+    "workload": [
+     "chat",
+     "agentic",
+     "synth"
+    ],
+    "cap_frac": [
+     0.25,
+     0.5,
+     1.0,
+     2.0
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "cap_slowtool": {
+   "think_scale": 100.0,
+   "grid": {
+    "workload": [
+     "agentic",
+     "synth"
+    ],
+    "cap_frac": [
+     0.25,
+     0.5,
+     1.0,
+     2.0
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "cap_headroom1": {
+   "think_scale": 100.0,
+   "headroom": 1.0,
+   "grid": {
+    "workload": [
+     "agentic",
+     "synth"
+    ],
+    "cap_frac": [
+     0.25,
+     0.5,
+     1.0,
+     2.0
+    ],
+    "policy": [
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "lat_hr1": {
+   "headroom": 1.0,
+   "grid": {
+    "workload": [
+     "agentic",
+     "synth"
+    ],
+    "tool_median_s": [
+     0.05,
+     0.2,
+     0.5,
+     1.0,
+     2.0,
+     5.0
+    ],
+    "cap_frac": [
+     0.25
+    ],
+    "policy": [
+     "session_affinity",
+     "cache_aware",
+     "evict_aware",
+     "oracle",
+     "least_loaded"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "nrep": {
+   "grid": {
+    "workload": [
+     "chat",
+     "agentic",
+     "synth"
+    ],
+    "N": [
+     2,
+     8,
+     16
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "util": {
+   "grid": {
+    "workload": [
+     "chat",
+     "agentic",
+     "synth"
+    ],
+    "util": [
+     0.5,
+     0.9
+    ],
+    "policy": [
+     "round_robin",
+     "random",
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "synth_turns": {
+   "workload": "synth",
+   "grid": {
+    "turns_scale": [
+     0.5,
+     2.0,
+     3.0
+    ],
+    "policy": [
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "synth_growth": {
+   "workload": "synth",
+   "grid": {
+    "growth_scale": [
+     0.25,
+     4.0,
+     16.0
+    ],
+    "policy": [
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "synth_think": {
+   "workload": "synth",
+   "grid": {
+    "think_scale": [
+     10.0,
+     100.0,
+     1000.0
+    ],
+    "policy": [
+     "least_loaded",
+     "session_affinity",
+     "prefix_hash",
+     "cache_aware",
+     "evict_aware",
+     "oracle"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "nocache": {
+   "caching": false,
+   "grid": {
+    "workload": [
+     "chat",
+     "agentic",
+     "synth"
+    ],
+    "policy": [
+     "round_robin",
+     "least_loaded"
+    ],
+    "seed": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  }
+ }
+}

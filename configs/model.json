@@ -1,0 +1,11 @@
+{
+  "key": "qwen2.5-7b-instruct-awq",
+  "repo": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+  "revision": "b25037543e9394b818fdfca67ab2a00ecc7dd641",
+  "size_gb": 5.58,
+  "quantization": "awq_marlin",
+  "max_model_len": 17408,
+  "max_num_batched_tokens": 8192,
+  "gpu_memory_utilization": 0.90,
+  "pressure_num_gpu_blocks": 2048
+}

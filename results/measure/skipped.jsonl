@@ -1,0 +1,5 @@
+{"key": "nocache|c=32|L=16384|h=0.25", "reason": "budget"}
+{"key": "nocache|c=32|L=16384|h=0.5", "reason": "budget"}
+{"key": "nocache|c=32|L=16384|h=0.75", "reason": "budget"}
+{"key": "nocache|c=32|L=16384|h=0.9", "reason": "budget"}
+{"key": "nocache|c=32|L=16384|h=1.0", "reason": "budget"}

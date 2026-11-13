@@ -1,0 +1,9 @@
+{
+  "_note": "Synthetic multi-turn replay for the correctness check and single-replica simulator validation. Distributions follow the fitted agentic trace (data/agentic_fit.json via AgenticTrace.fit_synth); think time scaled x20 (~1 s tool latency) so that ~30 sessions overlap.",
+  "rate": 3.0,
+  "turns_mean": 4.1,
+  "max_turns": 12,
+  "tool_ln": [3.97, 0.95],
+  "out_ln": [4.49, 0.60],
+  "think_ln": [-0.05, 1.0]
+}
