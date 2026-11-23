@@ -1,0 +1,5 @@
+logs/
+__pycache__/
+/results_*.csv
+/fit_info.json
+/fig_intervals.png
