@@ -114,7 +114,3 @@ Code: [MIT](LICENSE). Third-party data in `data/azure/` remains under its origin
 ## Extension: calibrated TTFT intervals under distribution shift
 
 Quantile and conformal TTFT prediction at routing time, tested under load, tool-latency, cluster-size and traffic shifts. See [`extensions/quantile_ttft/`](extensions/quantile_ttft/).
-
-## Extension: calibrated TTFT intervals under distribution shift
-
-Quantile and conformal TTFT prediction at routing time, tested under load, tool-latency, cluster-size and traffic shifts. See [`extensions/quantile_ttft/`](extensions/quantile_ttft/).
